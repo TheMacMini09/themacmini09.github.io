@@ -1,6 +1,6 @@
 TheMacMini09
 ======================
-This is a repo for my website, which currently resides at http://themacmini09.github.io. Changes will occur here before there. Consider this a "testing website."
+This is a repo for my website, which currently resides at http://hosting.themacmini09.com. Changes will occur here (http://themacmini09.github.io) before there. Consider this a "testing website."
 
 Suggestions
 -----------
