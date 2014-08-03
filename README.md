@@ -5,3 +5,7 @@ This is a repo for my website, which currently resides at http://hosting.themacm
 Suggestions
 -----------
 If you have a suggestion with the website, or if you want something added, removed, or changed, just open a support ticket, and I'll check it out.
+
+Thanks
+------
+Special thanks to Webflow for the site design template. Thanks to 1&1 for the unlimited web hosting.
