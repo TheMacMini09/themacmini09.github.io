@@ -4,9 +4,7 @@
 <html data-wf-site="53cfd249a5282d255c61f574">
 <head>
   <meta charset="utf-8">
-  <title>TheMacMini09 - Web Hosting Home</title>
-  <meta name="description" content="TheMacMini09 web hosting home">
-  <meta name="keywords" content="web, hosting, packages, free, cheap, themacmini09">
+  <title>TheMacMini09 - Purchase Package</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -40,133 +38,49 @@
   <div class="section hero">
     <div class="w-container container">
       <h1 data-ix="zoom-in-and-fade-in">TheMacMini09 Web Design and Hosting&nbsp;</h1>
-      <div class="w-form sign-up-form">
-        <form class="w-clearfix" name="wf-form-signup-form" data-name="Signup Form">
-          <input class="w-input field" id="name" type="text" placeholder="Enter your full name" name="Name" required="required" data-name="Name">
-          <input class="w-input field" id="username" type="text" placeholder="Pick a unique username" name="Username" required="required" data-name="Username">
-          <input class="w-button button" type="submit" value="Check Availability" data-wait="Checking..." wait="Checking...">
-          <input class="w-input field" type="email" placeholder="Enter your email address" name="email" data-name="Email" required="required">
-          <input class="w-button button" type="submit" value="Sign up now" data-wait="Please wait...">
-        </form>
-        <div class="w-form-done success-message">
-          <p>Thanks! You'll be the first to know.</p>
-          <p class="spread-word">Help spread the word!</p>
-          <div class="w-clearfix social-widget-wrapper">
-            <div class="w-widget w-widget-twitter social-widget">
-              <iframe src="https://platform.twitter.com/widgets/tweet_button.html#url=http%3A%2F%2Fwebflow.com&amp;counturl=webflow.com&amp;text=Check%20out%20this%20site&amp;count=horizontal&amp;size=m&amp;dnt=true" scrolling="no" frameborder="0" allowtransparency="true"
-              style="border: none; overflow: hidden; width: 110px; height: 20px;"></iframe>
-            </div>
-            <div class="w-widget w-widget-facebook social-widget">
-              <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fwebflow&amp;layout=button_count&amp;locale=en_US&amp;action=like&amp;show_faces=false&amp;share=false" scrolling="no" frameborder="0" allowtransparency="true"
-              style="border: none; overflow: hidden; width: 90px; height: 20px;"></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="w-form-fail error-message">
-          <p>Oops! Something went wrong while submitting the form. :(</p>
-        </div>
-      </div>
     </div>
   </div>
   <div class="section grey" data-anchor="slide1">
-    <div class="w-container">
-      <h2 class="grey-heading">Web Hosting.</h2>
-      <p>You can’t go wrong with a free plan with 100GB&nbsp;of web storage!</p>
-    </div>
-    <div class="w-container packages-container">
-      <div class="w-row">
-        <div class="w-col w-col-3">
-          <h1 class="tier">Entry Level:&nbsp;Free</h1>
-          <ul class="w-list-unstyled">
-            <li class="w-clearfix">
-              <div class="tier-main-point">100GB</div>
-              <div class="tier-point">Free storage</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">1</div>
-              <div class="tier-point">Website</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">0</div>
-              <div class="tier-point">Subdomains**</div>
-            </li>
-          </ul>
+    <div class="w-container info-form">
+      <div class="w-form">
+        <form id="email-form" name="email-form" data-name="Email Form">
+          <div class="w-row">
+            <div class="w-col w-col-3 w-clearfix">
+              <label class="info-form-text" for="Username">Username:</label>
+              <input class="w-input info-form-entry" id="Username" type="text" placeholder="Enter your username" name="Username" required="required" data-name="Username">
+              <label class="info-form-text" for="name">Name:</label>
+              <input class="w-input info-form-entry" id="name" type="text" placeholder="Enter your full name" name="name" data-name="Name" required="required">
+              <input class="w-button info-form-button" type="submit" value="Continue" data-wait="Please wait...">
+            </div>
+            <div class="w-col w-col-3">
+              <label class="info-form-text" for="Password">Password:</label>
+              <input class="w-input info-form-entry" id="Password" type="password" placeholder="Enter your password" name="Password" required="required" data-name="Password">
+              <label class="info-form-text" for="Payment-Method">Payment Method:</label>
+              <select class="w-select" id="Payment-Method" name="Payment-Method" required="required" data-name="Payment Method">
+                <option value="btc">Bitcoin*</option>
+                <option value="paypal">PayPal</option>
+              </select>
+              <div>*Save 5%&nbsp;on any order when purchasing with Bitcoin!</div>
+            </div>
+            <div class="w-col w-col-6">
+              <label class="info-form-text" for="email">Email Address:</label>
+              <input class="w-input info-form-entry" id="email" type="email" placeholder="Enter your email address" name="email" data-name="Email" required="required">
+              <label class="info-form-text" for="Plan">Plan:</label>
+              <select class="w-select info-form-selector" id="Plan" name="Plan" required="required" data-name="Plan">
+                <option value="free">Free Plan</option>
+                <option value="small">Small ($0.99/month)</option>
+                <option value="medium">Medium ($4.99/month)</option>
+                <option value="large">Large ($9.99/month)</option>
+              </select>
+            </div>
+          </div>
+        </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
         </div>
-        <div class="w-col w-col-3">
-          <h1 class="tier">Small:&nbsp;$0.99*</h1>
-          <ul class="w-list-unstyled">
-            <li class="w-clearfix">
-              <div class="tier-main-point">250GB</div>
-              <div class="tier-point">Included Storage</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">1</div>
-              <div class="tier-point">Website</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">1</div>
-              <div class="tier-point">Subdomain**</div>
-            </li>
-          </ul>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form :(</p>
         </div>
-        <div class="w-col w-col-3">
-          <h1 class="tier">Medium:&nbsp;$4.99*</h1>
-          <ul class="w-list-unstyled">
-            <li class="w-clearfix">
-              <div class="tier-main-point">500GB</div>
-              <div class="tier-point">Included Storage</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">5</div>
-              <div class="tier-point">Websites</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">1</div>
-              <div class="tier-point">Domain†</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">5</div>
-              <div class="tier-point">Subdomains**</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">1</div>
-              <div class="tier-point">FTP&nbsp;account</div>
-            </li>
-          </ul>
-        </div>
-        <div class="w-col w-col-3">
-          <h1 class="tier">Large:&nbsp;$9.99*</h1>
-          <ul class="w-list-unstyled">
-            <li class="w-clearfix">
-              <div class="tier-main-point">1TB</div>
-              <div class="tier-point">Included Storage</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">10</div>
-              <div class="tier-point">Websites</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">1+</div>
-              <div class="tier-point">Domain†</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">10</div>
-              <div class="tier-point">Subdomains**</div>
-            </li>
-            <li class="w-clearfix">
-              <div class="tier-main-point">1</div>
-              <div class="tier-point">FTP&nbsp;account</div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="w-container"><a class="w-inline-block more-info" href="packages.html"><h2 class="more-info-heading">More Information...</h2></a>
-      </div>
-      <div class="w-container">
-        <div class="fine-print">*Per month on a 1-year contract. Pricing carries over after first year. †Domain not included in monthly price, and is subject to applicable fees. **If there are no included subdomains, content will be hosted at http://hosting.themacmini09.com/SITE_NAME.
-          All other subdomains are optional, and created after the order is complete – content can still be hosted at&nbsp;http://hosting.themacmini09.com/SITE_NAME</div>
       </div>
     </div>
   </div>

@@ -362,6 +362,23 @@ p {
   text-decoration: underline;
   text-shadow: none;
 }
+.info-form-text {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+.info-form-entry {
+  width: 200px;
+}
+.info-form-button {
+  float: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.info-form-selector {
+  width: 200px;
+}
 html.w-mod-js.w-mod-no-ios *[data-ix="fade-in-and-move-up"] {
   opacity: 0.25;
   -webkit-transform: translate(0px, 100px);
