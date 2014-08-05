@@ -54,7 +54,7 @@ p {
   margin-bottom: 5px;
   padding-right: 60px;
   padding-left: 60px;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.40);
   font-size: 23px;
   line-height: 30px;
   font-weight: 300;
@@ -361,6 +361,14 @@ p {
   font-weight: 300;
   text-decoration: underline;
   text-shadow: none;
+}
+.more-info-heading.small {
+  font-size: 22px;
+  text-shadow: none;
+}
+.info-form {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .info-form-text {
   width: 150px;
