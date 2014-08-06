@@ -1600,9 +1600,9 @@ textarea.w-select {
   display: block;
   overflow: hidden;
 }
-.w-tab-pane {
+.w-tab-pane:not(.w--tab-active) {
   position: relative;
-  display: none;
+  height: 0;
 }
 .w--tab-active {
   display: block;
