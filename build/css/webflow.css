@@ -78,13 +78,13 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  /*margin: 0;*/
 }
 p {
-  margin: 0;
+  /*margin: 0;*/
 }
 blockquote {
-  margin: 0;
+  /*margin: 0;*/
 }
 ul,
 ol {
@@ -151,11 +151,11 @@ label {
 .w-input,
 .w-select {
   display: block;
-  width: 100%;
-  height: 38px;
-  padding: 8px 12px;
+  /*width: 100%;*/
+  /*height: 38px;*/
+  /*padding: 8px 12px;*/
   margin-bottom: 10px;
-  font-size: 14px;
+  /*font-size: 14px;*/
   line-height: 1.428571429;
   color: #555555;
   vertical-align: middle;
@@ -203,7 +203,7 @@ textarea.w-select {
 .w-button {
   display: inline-block;
   padding: 12px;
-  background-color: black;
+  /*background-color: black;*/
   color: white;
   border: 0;
   line-height: inherit;
@@ -1179,7 +1179,7 @@ textarea.w-select {
   -webkit-transform: translate(0, 0);
   /* 2 */
 }
-/** 
+/**
  * Neat trick to bind the rubberband effect to our canvas instead of the whole
  * document on iOS. It also prevents a bug that causes the document underneath to scroll.
  */
@@ -1357,7 +1357,7 @@ textarea.w-select {
 }
 /*
  * Spinner
- * 
+ *
  * Absolute pixel values are used to avoid rounding errors that would cause
  * the white spinning element to be misaligned with the track.
  */

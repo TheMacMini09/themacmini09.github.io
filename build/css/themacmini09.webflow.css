@@ -202,7 +202,7 @@ p {
   color: #2e2e2e;
   font-size: 32px;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .logo {
   margin-top: -10px;
@@ -244,8 +244,15 @@ p {
   margin-top: 39px;
   margin-bottom: -81px;
 }
+.image-crop:hover > .phone-image {
+  opacity:1;
+  transform:translateY(0)
+}
 .phone-image {
   width: 381px;
+  opacity:0.5;
+  transform:translateY(81px);
+  transition: all 0.5s ease;
 }
 .infinite {
   margin-top: 52px;
@@ -448,6 +455,10 @@ html.w-mod-js.w-mod-no-ios *[data-ix="zoom-in-and-fade-in"] {
     padding-top: 26px;
     padding-bottom: 26px;
   }
+  .phone-image {
+    opacity:1;
+    transform:translateY(0)
+  }
 }
 @media (max-width: 479px) {
   h1 {
@@ -502,12 +513,24 @@ html.w-mod-js.w-mod-no-ios *[data-ix="zoom-in-and-fade-in"] {
   .grey-heading {
     text-shadow: none;
   }
-  .image-crop {
+  /*.image-crop {
     height: 278px;
     margin-bottom: -47px;
-  }
+  }*/
   .phone-image {
     width: 80%;
   }
 }
-
+.zoom-in-and-fade-in {
+  animation: zoom-in-and-fade-in 0.75s ease both;
+}
+@keyframes zoom-in-and-fade-in {
+  0% {
+    opacity:0.75;
+    transform:scale(0.75);
+  }
+  100% {
+    opacity:1;
+    transform:scale(1);
+  }
+}
