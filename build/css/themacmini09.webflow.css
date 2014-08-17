@@ -456,7 +456,7 @@ html.w-mod-js.w-mod-no-ios *[data-ix="zoom-in-and-fade-in"] {
         padding-bottom: 26px;
     }
     .phone-image {
-        opacity: 1;
+        opacity: 0.5;
         transform: translateY(0)
     }
 }
