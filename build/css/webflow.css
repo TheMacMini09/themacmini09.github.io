@@ -1603,6 +1603,7 @@ textarea.w-select {
 .w-tab-pane:not(.w--tab-active) {
   position: relative;
   height: 0;
+  display:none
 }
 .w--tab-active {
   display: block;

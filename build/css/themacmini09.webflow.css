@@ -558,4 +558,5 @@ div.w-tab-pane, div.w-tab-pane * {
 }
 div.w-tab-pane.w--tab-active, div.w-tab-pane.w--tab-active * {
     animation: fade-in 0.25s ease both !important;
+    display:block
 }
